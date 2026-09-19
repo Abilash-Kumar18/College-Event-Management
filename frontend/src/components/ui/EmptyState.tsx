@@ -1,7 +1,6 @@
 import React from 'react';
 import { Calendar, Search } from 'lucide-react';
 import { Button } from './Button';
-
 interface EmptyStateProps {
   title?: string;
   description?: string;
@@ -11,7 +10,6 @@ interface EmptyStateProps {
     onClick: () => void;
   };
 }
-
 export function EmptyState({
   title = 'No events found',
   description = 'Try adjusting your search or filters to find what you\'re looking for.',
